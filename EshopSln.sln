@@ -9,15 +9,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{6BFE1E3F-27B2-4B27-8413-FACB62B5BDC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eshop.Domain", "Eshop.Domain\Eshop.Domain.csproj", "{7D7A6ED0-5A69-4663-8BA6-BDD5D2FE6BA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eshop.Domain", "Eshop.Domain\Eshop.Domain.csproj", "{7D7A6ED0-5A69-4663-8BA6-BDD5D2FE6BA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eshop.Application", "Eshop.Application\Eshop.Application.csproj", "{36918922-2587-4325-BCBE-D1922E2BCF26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eshop.Application", "Eshop.Application\Eshop.Application.csproj", "{36918922-2587-4325-BCBE-D1922E2BCF26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eshop.Infrastructure", "Eshop.Infrastructure\Eshop.Infrastructure.csproj", "{8134315C-80D8-496C-8E2C-3B4C3B866309}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eshop.Infrastructure", "Eshop.Infrastructure\Eshop.Infrastructure.csproj", "{8134315C-80D8-496C-8E2C-3B4C3B866309}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eshop.Persistence", "Eshop.Persistence\Eshop.Persistence.csproj", "{54D963D5-68AA-4A72-B533-138525E17A82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eshop.Persistence", "Eshop.Persistence\Eshop.Persistence.csproj", "{54D963D5-68AA-4A72-B533-138525E17A82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eshop.UI", "Eshop.UI\Eshop.UI.csproj", "{FBF72976-E7FA-474E-8F2B-D4A60592B32E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eshop.UI", "Eshop.UI\Eshop.UI.csproj", "{FBF72976-E7FA-474E-8F2B-D4A60592B32E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{BD7E43A6-20D9-48F7-A19B-E12FC2387BA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xUnit", "xUnit", "{55BF9D21-D926-4AAB-9CE3-7C42105781D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eshop.Testing", "Eshop.Testing\Eshop.Testing.csproj", "{77CE5DDD-C45E-43D2-89A4-90E466F4C781}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,10 @@ Global
 		{FBF72976-E7FA-474E-8F2B-D4A60592B32E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBF72976-E7FA-474E-8F2B-D4A60592B32E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBF72976-E7FA-474E-8F2B-D4A60592B32E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77CE5DDD-C45E-43D2-89A4-90E466F4C781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77CE5DDD-C45E-43D2-89A4-90E466F4C781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77CE5DDD-C45E-43D2-89A4-90E466F4C781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77CE5DDD-C45E-43D2-89A4-90E466F4C781}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +65,8 @@ Global
 		{8134315C-80D8-496C-8E2C-3B4C3B866309} = {BE764AF0-F611-4BF0-A5C0-7629D260FAD4}
 		{54D963D5-68AA-4A72-B533-138525E17A82} = {BE764AF0-F611-4BF0-A5C0-7629D260FAD4}
 		{FBF72976-E7FA-474E-8F2B-D4A60592B32E} = {6BFE1E3F-27B2-4B27-8413-FACB62B5BDC9}
+		{55BF9D21-D926-4AAB-9CE3-7C42105781D8} = {BD7E43A6-20D9-48F7-A19B-E12FC2387BA9}
+		{77CE5DDD-C45E-43D2-89A4-90E466F4C781} = {55BF9D21-D926-4AAB-9CE3-7C42105781D8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E76462F3-F7ED-487D-B472-5E38061F0143}

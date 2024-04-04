@@ -1,7 +1,13 @@
+using Eshop.Persistence;
+using Eshop.Application;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddPersistence(builder.Configuration);
+builder.Services.AddApplication();
 
 var app = builder.Build();
 
@@ -19,6 +25,7 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
 
 app.MapControllerRoute(
     name: "default",

@@ -6,4 +6,26 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.9.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.0" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="SendGrid" Version="9.29.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Eshop.Domain\Eshop.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dtos\CategoryDto\Request\" />
+    <Folder Include="Dtos\OrderDto\Request\" />
+    <Folder Include="Dtos\OrderItemDto\Request\" />
+    <Folder Include="Dtos\ProductDto\Request\" />
+    <Folder Include="Features\Products\Commands\CreateProduct\" />
+  </ItemGroup>
+
 </Project>
